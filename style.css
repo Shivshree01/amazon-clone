@@ -1,105 +1,6 @@
-/* *{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    border: border-box;
-}
-
-.navbar{
-    height: 60px;
-    background-color: #0f1111;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.nav-logo{
-    height: 50px;
-    width: 114px;
-}
-
-.logo{
-   background-image: url(https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-PNG-HD-Quality.png); 
-    height: 50px;
-    width: 114px;
-    background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
-}
-
-.border{
-    border: 2px solid transparent;
-}
-.border:hover{
-    border: 2px solid white;
-}
-/* box 2 */
-/* .add-first{
-    color: #cccccc;
-    font-size: 0.85rem;
-    margin-left: 15px;
-}
-
-.add-sec{
-    color:#ffffff ;
-    font-size: 1rem;
-    margin-left: 3px;
-}
-.add-icon{
-    display: flex;
-    align-items: center; */
-/* } */
-/* BOX3 */
-/* .nav-search{
-    display: flex;
-    justify-content:space-evenly;
-    background-color: #febd68;
-    width:769px ;
-    height: 40px;
-    border-radius:4px ;
-
-}
-
-.search-select{
-   background-color:#f3f3f3 ; 
-   width: 50px;
-   text-align: center;
-   border-top-left-radius:4px ;
-   border-bottom-left-radius: 4px;
-   border: none;
-}
-
-.search-input{
-    width: 100%;
-    font-size: 1 rem;
-    border: none;
-}
-
-.search-icon{
-    width: 45px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 1 rem;
-       border-top-right-radius:4px ;
-   border-bottom-right-radius: 4px;
-   
-}
-.nav-search:hover{
-    border: 2px solid orange;
-} */
-
-/*box4 */
-/* span{
-    font-size:0.7rem ;
-}
-.nav-second{
-    font-size: 0.85rem;
-    font-weight: 700;
-} */
-
-/* gpt wala */
-
+ *{   font-family: Arial, Helvetica, sans-serif;
+    }
+/* NAVBAR */
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -191,7 +92,7 @@
     border-bottom-right-radius: 4px;
     color: black;
 }
-
+/* LANGUAGE */
 .nav-language {
     display: flex;
     align-items: center;
@@ -315,35 +216,7 @@ span{
     margin-left: 15px;
 }
 
-
-
-
-
-
-/* HERO section */
-/* .hero-section{
-    background-image: url(https://m.media-amazon.com/images/I/81MR0wVI9SL._SX3000_.jpg);
-    
-    position: absolute;
-    width: 100%;
-    height: 50%;
-   
-}
-
-.box{
-    border: 2px solid black;
-    height:100px;
-    
-} */
-
-/* .hero-section {
-    background-image: url(https://m.media-amazon.com/images/I/61LDhxRoLkL._SX3000_.jpg);
-    width: 100%;
-    height: 400px;   
-    background-size: contain;
-   align-items: center;
-    background-position: center;
-} */
+/* HERO SECTION */
 
 .hero-section {
     position: relative;
@@ -383,7 +256,7 @@ z-index: 1;
 
 }
 .box{
-    /* border: 2px solid black; */
+
    min-height:420px;
     width: 23%;
     background-color: white;
@@ -416,16 +289,6 @@ margin: 15px 0;
     margin-bottom: 10px;
 }
 
-/* BOXC1 */
-/* .box2{
-    border: 2px solid black;
-    height: 281px;
-    width: 97%;
-    background-color: white;
-    padding: 20px 0px 15px;
-    font-size: 30px;
-    font-weight: bold;
-} */
 
 .box2{
    
@@ -436,19 +299,6 @@ margin: 15px 0;
     font-weight: bold;
 }
 
-/* .books{
-display: flex;
-width: 200px;
-   align-items: center;
-    justify-content: space-evenly;
-} */
-/* 
-.books{
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
-    padding-top: 20px;
-} */
 .books{
     display: flex;
     justify-content: space-between;
